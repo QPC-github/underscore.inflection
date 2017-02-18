@@ -1,21 +1,12 @@
-/**
- * Export underscore globally
- */
-global._ = require('underscore');
-
-/**
- * Export `expect` globally
- */
 global.expect = require('chai').expect;
 
-/**
- * Require the subject under test
- */
-require('..');
+var _ = require("lodash")
+
+global.inflection = require('..')(_);
 
 /**
- * Reset inflections befor each test
+ * Reset inflections before each test
  */
 beforeEach(function() {
-  _.resetInflections();
+  inflection.resetInflections();
 });

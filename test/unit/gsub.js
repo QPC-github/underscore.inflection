@@ -1,3 +1,5 @@
+_ = global.inflection
+
 describe('#gsub', function() {
   describe('with a regex', function() {
     it('replaces one instance of the match', function() {

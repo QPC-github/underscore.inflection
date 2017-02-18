@@ -1,3 +1,5 @@
+_ = global.inflection
+
 describe('#uncountable', function() {
   it('notes the word as a special case in pluralization', function() {
     _.uncountable('asdf');

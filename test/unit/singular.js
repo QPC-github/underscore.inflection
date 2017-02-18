@@ -1,3 +1,5 @@
+_ = global.inflection
+
 describe('#singular', function() {
   it('adds a new singularization rule by explicit string', function() {
     _.singular('data', 'datum');

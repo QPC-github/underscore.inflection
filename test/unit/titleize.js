@@ -1,3 +1,5 @@
+_ = global.inflection
+
 describe('#titleize', function() {
   it('returns non-strings', function() {
     expect(_.titleize(5)).to.equal(5);

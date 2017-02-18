@@ -1,3 +1,5 @@
+_ = global.inflection
+
 describe('#pluralize', function() {
   it('pluralizes the given noun', function() {
     expect(_.pluralize('post')).to.equal('posts');

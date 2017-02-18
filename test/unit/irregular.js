@@ -1,3 +1,5 @@
+_ = global.inflection
+
 describe('#irregular', function() {
   it('adds a rule to pluralize the special case', function() {
     _.irregular('haxor', 'hax0rs!');

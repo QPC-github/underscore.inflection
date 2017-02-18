@@ -1,3 +1,5 @@
+_ = global.inflection
+
 describe('#plural', function() {
   it('adds a new pluralization rule by explict string', function() {
     _.plural('axis', 'axes');

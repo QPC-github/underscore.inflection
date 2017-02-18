@@ -1,3 +1,5 @@
+_ = global.inflection
+
 describe('inflector', function() {
   /**
    * Test macro for pluralize & singularize tests

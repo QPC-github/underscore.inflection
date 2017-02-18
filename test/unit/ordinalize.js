@@ -1,3 +1,5 @@
+_ = global.inflection
+
 describe('#ordinalize', function() {
   it('returns a stirng that is not a number or string', function() {
     expect(_.ordinalize('hello')).to.equal('hello');

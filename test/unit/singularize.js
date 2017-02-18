@@ -1,3 +1,5 @@
+_ = global.inflection
+
 describe('#singularize', function() {
   it('singularizes the given noun', function() {
     expect(_.singularize('posts')).to.equal('post');
