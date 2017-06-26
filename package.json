@@ -1,7 +1,7 @@
 {
-  "name": "underscore.inflection",
+  "name": "@cypress/underscore.inflection",
   "version": "0.0.0-development",
-  "description": "ActiveSupport::Inflector, for underscore!",
+  "description": "ActiveSupport::Inflector, for underscore, compatible with Cypress.io",
   "main": "index.js",
   "browser": "lib/underscore.inflection.js",
   "engines": {
