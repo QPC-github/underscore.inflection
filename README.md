@@ -1,8 +1,9 @@
-## underscore.inflection
+## @cypress/underscore.inflection
 
-> [![NPM version][npm-badge]][npm]
-> [![Build Status][travis-badge]][travis-ci]
-> [![Coverage Status][coveralls-badge]][coveralls]
+[![CircleCI](https://circleci.com/gh/cypress-io/underscore.inflection.svg?style=svg)](https://circleci.com/gh/cypress-io/underscore.inflection)
+[![semantic-release][semantic-image] ][semantic-url]
+
+Forked from `underscore.inflection`
 
 **Another javascript inflector?!**
 
@@ -190,12 +191,6 @@ Though no code was taken directly from them, they deserve plenty of props for do
 
 [MIT License][LICENSE]
 
-[npm]: http://badge.fury.io/js/underscore.inflection
-[npm-badge]: https://badge.fury.io/js/underscore.inflection.svg
-[travis-ci]: https://travis-ci.org/jeremyruppel/underscore.inflection
-[travis-badge]: https://travis-ci.org/jeremyruppel/underscore.inflection.svg?branch=master
-[coveralls]: https://coveralls.io/r/jeremyruppel/underscore.inflection?branch=master
-[coveralls-badge]: https://img.shields.io/coveralls/jeremyruppel/underscore.inflection.svg
 [rails]: https://github.com/rails/rails
 [activesupport]: https://github.com/rails/rails/tree/master/activesupport
 [underscore]: http://documentcloud.github.com/underscore/

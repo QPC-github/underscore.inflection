@@ -1,6 +1,6 @@
 {
   "name": "underscore.inflection",
-  "version": "1.3.2",
+  "version": "0.0.0-development",
   "description": "ActiveSupport::Inflector, for underscore!",
   "main": "index.js",
   "browser": "lib/underscore.inflection.js",
@@ -13,11 +13,12 @@
     "coverage": "JSCOV=1 mocha -R mocha-lcov-reporter | coveralls",
     "jscov": "gulp jscov",
     "jscs": "gulp jscs",
-    "docs": "gulp docs"
+    "docs": "gulp docs",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/jeremyruppel/underscore.inflection.git"
+    "url": "https://github.com/jeremyruppel/underscore.inflection.git"
   },
   "keywords": [
     "underscore",
@@ -35,6 +36,7 @@
   "homepage": "https://github.com/jeremyruppel/underscore.inflection",
   "devDependencies": {
     "chai": "~2.3.0",
+    "condition-circle": "^1.5.0",
     "coveralls": "~2.11.2",
     "gulp": "~3.8.11",
     "gulp-contribs": "~0.0.2",
@@ -44,7 +46,13 @@
     "lodash": "^4.17.4",
     "mocha": "3.2.0",
     "mocha-lcov-reporter": "~0.0.2",
-    "mversion": "^1.10.1"
+    "mversion": "^1.10.1",
+    "semantic-release": "^6.3.6",
+    "simple-commit-message": "^3.0.2"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "release": {
+    "verifyConditions": "condition-circle",
+    "analyzeCommits": "simple-commit-message"
+  }
 }
