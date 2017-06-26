@@ -196,3 +196,6 @@ Though no code was taken directly from them, they deserve plenty of props for do
 [underscore]: http://documentcloud.github.com/underscore/
 [documentcloud]: http://www.documentcloud.org/home
 [LICENSE]: https://github.com/jeremyruppel/underscore.inflection/blob/master/LICENSE
+
+[semantic-image]: https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg
+[semantic-url]: https://github.com/semantic-release/semantic-release
