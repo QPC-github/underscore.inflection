@@ -14,7 +14,7 @@
     "jscov": "gulp jscov",
     "jscs": "gulp jscs",
     "docs": "gulp docs",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "semantic-release": "semantic-release pre && npm publish --access public && semantic-release post"
   },
   "repository": {
     "type": "git",
