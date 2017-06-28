@@ -5,6 +5,8 @@
 
 Forked from `underscore.inflection`
 
+To install: `npm install --save @cypress/underscore.inflection`
+
 **Another javascript inflector?!**
 
 I'll be the first to say it; this isn't the first port of [ActiveSupport::Inflector][activesupport] to js. Not by a long shot. But I'll definitely take [underscore][underscore] mixins over extending String.prototype or other clunky implementations any day.
